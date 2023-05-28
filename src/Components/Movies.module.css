@@ -1,0 +1,71 @@
+.movies {
+  background-image: url('https://img.freepik.com/free-vector/movie-film-strip-blue-background_1017-33458.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  overflow: scroll;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.black {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  overflow: scroll;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .on {
+    color: #000;
+  }
+  .off {
+    color: #ccc;
+  }
+
+  .center {
+    position: absolute;
+    left: 60%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    border: 3px solid rgb(7, 12, 7);
+    padding: 10px;
+  }
+
+  .red {
+    color: #f50909;
+    text-align: center;
+  }
+
+  .white {
+    color: white;
+  }
+
+
+  .redbox {
+    background-color: rgb(255, 30, 0);
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  input[type="text"] {
+    width: 500px; /* Adjust the value as needed */
+  }
+  
+  
